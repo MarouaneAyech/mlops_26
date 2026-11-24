@@ -1,4 +1,4 @@
-# Byte-compiled / optimized / DLL files
+ch# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -221,3 +221,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+data/
+models/
+reports/
