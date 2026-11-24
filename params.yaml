@@ -1,0 +1,12 @@
+# ImmoScore — tous les reglages du projet, en un seul endroit.
+# Aucune de ces valeurs ne doit apparaitre dans le code.
+
+process:
+  # On ne garde que les variables dont la correlation absolue avec
+  # SalePrice depasse ce seuil. Le directeur le fera resserrer a l'atelier 3.
+  corr_threshold: 0.5
+
+split:
+  test_size: 0.2    # part du jeu reservee au test
+  n_bins: 5         # tranches de prix pour la stratification
+  seed: 42          # la graine : c'est elle qui rend le decoupage reproductible
