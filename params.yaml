@@ -4,7 +4,7 @@
 process:
   # On ne garde que les variables dont la correlation absolue avec
   # SalePrice depasse ce seuil. Le directeur le fera resserrer a l'atelier 3.
-  corr_threshold: 0.5
+  corr_threshold: 0.6
 
 split:
   test_size: 0.2    # part du jeu reservee au test
